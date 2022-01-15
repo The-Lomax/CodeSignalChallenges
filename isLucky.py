@@ -1,6 +1,4 @@
-# Ticket numbers usually consist of an even number of digits. A ticket number is considered lucky if the sum of the first half of the digits is equal to the sum of the second half.
-
-# Given a ticket number n, determine if it's lucky or not.
+# Given a ticket number, determine if the ticket is lucky. Lucky ticket has even number of digits and sums of both half of digits are the same
 
 def solution(n):
     myStr = str(n)

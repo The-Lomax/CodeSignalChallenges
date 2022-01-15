@@ -1,4 +1,4 @@
-# Given an array of strings, return another array containing all of its longest strings.
+# given a list of strings, return another list of it's longest strings, in the same order.
 
 def solution(inputArray):
     res = []

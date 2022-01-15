@@ -1,6 +1,6 @@
-# Given a sequence of integers as an array, determine whether it is possible to obtain a strictly increasing sequence by removing no more than one element from the array.
+# Given a list of ints, determine whether it is possible to obtain a strictly increasing sequence by removing no more than one element from the list.
 
-# Note: sequence a0, a1, ..., an is considered to be a strictly increasing if a0 < a1 < ... < an. Sequence containing only one element is also considered to be strictly increasing.
+# Note: strictly increasing sequence is when each consecutive element is larger than previous one
 
 def solution(sequence):
     if len(sequence) == 1:

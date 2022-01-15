@@ -1,4 +1,4 @@
-# Given an array of integers, find the pair of adjacent elements that has the largest product and return that product.
+# Given a list of ints, find the pair of adjacent elements that has the largest product and return that product.
 
 def solution(inputArray):
     res = inputArray[0] * inputArray[1]
