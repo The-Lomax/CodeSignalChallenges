@@ -3,7 +3,7 @@
 
 # Add up all the values that don't appear below a 0).
 
-def solution(matrix):
+def matrixElementSum(matrix):
     rowsToCheck = set(range(len(matrix[0])))
     rowsToIgnore = set()
     res = 0
@@ -24,4 +24,4 @@ data = [
 ]
 
 if __name__ == "__main__":
-    print(solution(data))
+    print(matrixElementSum(data))

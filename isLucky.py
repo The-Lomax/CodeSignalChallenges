@@ -1,6 +1,6 @@
 # Given a ticket number, determine if the ticket is lucky. Lucky ticket has even number of digits and sums of both half of digits are the same
 
-def solution(n):
+def isLucky(n):
     myStr = str(n)
     digits = len(myStr)
     res1 = 0
@@ -18,4 +18,4 @@ def solution(n):
     else:
         return False
 
-print(solution(123321))
+print(isLucky(123321))

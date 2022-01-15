@@ -2,7 +2,7 @@
 
 # Note: strictly increasing sequence is when each consecutive element is larger than previous one
 
-def solution(sequence):
+def almostIncreasingSequence(sequence):
     if len(sequence) == 1:
         return True
     else:
@@ -29,4 +29,4 @@ def solution(sequence):
 data = [10, 1, 2, 3, 4, 5]
 
 if __name__ == "__main__":
-    print(solution(data))
+    print(almostIncreasingSequence(data))

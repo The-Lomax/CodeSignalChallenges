@@ -1,6 +1,6 @@
 # Find the area of an n-interesting polygon
 
-def solution(n):
+def shapeArea(n):
     if n == 1:
         return n
     else:
@@ -11,4 +11,4 @@ def solution(n):
         return res
 
 if __name__ == "__main__":
-    print(solution(4))
+    print(shapeArea(4))

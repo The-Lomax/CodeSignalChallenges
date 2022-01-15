@@ -1,6 +1,6 @@
 # given a list of strings, return another list of it's longest strings, in the same order.
 
-def solution(inputArray):
+def allLongestStrings(inputArray):
     res = []
     for el in inputArray:
         if len(res) == 0:
@@ -21,4 +21,4 @@ data = [
 ]
 
 if __name__ == "__main__":
-    print(solution(data))
+    print(allLongestStrings(data))

@@ -4,7 +4,7 @@
 # For s1 = "aabcc" and s2 = "adcaa", the output should be
 # solution(s1, s2) = 3.
 
-def solution(s1, s2):
+def commonCharactersCount(s1, s2):
     res = 0
     for el in s1:
         if el in s2:
@@ -14,4 +14,4 @@ def solution(s1, s2):
     return res
 
 if __name__ == "__main__":
-    print(solution("aabcc", "adcaa"))
+    print(commonCharactersCount("aabcc", "adcaa"))
