@@ -13,5 +13,26 @@ def commonCharactersCount(s1, s2):
     
     return res
 
+
+# This function was added to get minimum difference to make words in lists anagrams.
+def getMinimumDifference(a, b):
+    # Write your code here
+    res = []
+    if len(a) != len(b):
+        return "lists are different size"
+    for i in range(0, len(a)):
+        if len(a[i]) != len(b[i]):
+            res.append(-1)
+        else:
+            temp = commonCharactersCount(a[i], b[i])
+            res.append(len(a[i]) - temp)
+    return res
+
+
+# Test case
+a = ['a', 'jk', 'abb', 'mn', 'abc']
+b = ['bb', 'kj', 'bbc', 'op', 'def']
+
+
 if __name__ == "__main__":
-    print(commonCharactersCount("aabcc", "adcaa"))
+    print(getMinimumDifference(a, b))
